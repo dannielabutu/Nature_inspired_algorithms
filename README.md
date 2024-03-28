@@ -27,7 +27,7 @@ The optimization of vehicle network performance on highways is a significant pro
 
 To formulate a mathematical function to solve this optimization problem, we use a mathematical modeling approach. We therefore break down the problem and formulate it mathematically:
 
-Decision Variables:
+## Decision Variables:
 
 Let Xab be a binary variable
 
@@ -83,6 +83,9 @@ $d =\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 1.	To find the optimal routing path using Dijkstra, Genetic Algorithm (GA) and Particle swamp optimization (PSO) algorithm
 2.	To find the end – to – end transmission rate and latency using Genetic Algorithm (GA) and Particle swamp optimization (PSO) algorithm
 3.	To evaluate the performance of various algorithm used and understand their strength and weakness.
+
+
+
 **METHODOLOGY USED TO SOLVE THE PROBLEM**
 
 This study employs a multi-faceted computational approach to address the problem of optimizing the routing of data packets across a network of vehicles, each represented by a node within a graph structure. The objective is to ascertain the most efficient path for data transmission, maximizing the rate of transmission while minimizing latency to either of two fixed base stations. The steps outlined below shows the procedures followed to achieve the objective of the problem.
