@@ -11,10 +11,12 @@ In this problem, we are addressing a real-world problem of routing optimization 
 Routing optimization plays a vital role in a well-performed network. Today’s world of interconnected system from enhancing efficient transportation, logistics to seamless data transmission. Almost all machine learning algorithms can be thought of as solutions to optimization problems. The fascinating thing is that one can still interpret all of these algorithms as solutions to optimization problems even in situations where the original machine learning technique had its roots in other disciplines, like biology (Wenjing et al, 2023).
 
 ## Constraints:
-	Distance Constraint: If the distance between Car i and Car j is greater than 6000m, there is no connection, so Xij = 0 and rij = 0
+	## Distance Constraint: If the distance between Car i and Car j is greater than 6000m, there is no connection, so Xij = 0 and rij = 0
 	Connectivity Constraints: Ensure that each Car connects to exactly one Car or a BS, and each Car or BS is connected to exactly one Car.
 Search and Optimization Requirements Specification
-The object of this project is to
+
+The objectives of this project is to
+
 	Develop algorithm that identify the most efficient routing paths.
 	Calculate the end-to-end transmission rate and latencies for each path.
 	Comparison of the different routing paths to identify the optimal one.
